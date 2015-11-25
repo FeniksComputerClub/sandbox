@@ -1,2 +1,2 @@
 # sandbox
-Let learn how this Shit works
+Lets learn how this shit works.
