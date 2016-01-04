@@ -7,5 +7,5 @@ void main()           // Unlike C, main is allowed to return nothing in C++. Thi
                       // can omit a 'return' statement at the end, but the netto result
                       // will be as if we return 0.
 {
-  std::cout << "Hello boobs.\n";
+  std::cout << "Hello world!\n";
 }
