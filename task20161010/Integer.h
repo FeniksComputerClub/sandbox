@@ -15,12 +15,12 @@ class Integer {
   }
 
   Integer(Integer const& i) : m_n(i.m_n) {
-    std::cout << "Calling Interger::Integer(Integer const&)" << std::endl;
+    std::cout << "Calling Integer::Integer(Integer const&)" << std::endl;
   }
 
   Integer& operator=(Integer const& i){
     m_n = i.m_n; 
-    std::cout << "Calling Interger::operator=(Integer const&)" << std::endl;
+    std::cout << "Calling Integer::operator=(Integer const&)" << std::endl;
   }
 
   Integer operator~() const
