@@ -1,4 +1,4 @@
-#include <Integer.h>
+#include "Integer.h"
 #include <iostream>
 
 std::ostream& operator<<(std::ostream& os, Integer const& i)
