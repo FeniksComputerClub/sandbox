@@ -41,8 +41,10 @@ class Integer {
   }
 
   friend Integer operator+(Integer const& i1, Integer const& i2);
+  friend Integer operator-(Integer const& i1, Integer const& i2);
   friend Integer operator*(Integer const& i1, Integer const& i2);
   friend bool operator==(Integer const& i1, Integer const& i2);
+  friend std::ostream& operator<<(std::ostream& os, Integer const& i);
 
   // Accessors.
   int n() const { return m_n; }
