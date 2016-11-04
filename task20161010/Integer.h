@@ -21,6 +21,7 @@ class Integer {
   Integer& operator=(Integer const& i){
     m_n = i.m_n; 
     std::cout << "Calling Integer::operator=(Integer const&)" << std::endl;
+    return *this;
   }
 
   Integer operator~() const
